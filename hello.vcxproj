@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Python-2.7.17\Include\abstract.h" />
+    <ClInclude Include="Python-2.7.17\Include\asdl.h" />
+    <ClInclude Include="Python-2.7.17\Include\ast.h" />
+    <ClInclude Include="Python-2.7.17\Include\bitset.h" />
+    <ClInclude Include="Python-2.7.17\Include\boolobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\bufferobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\bytearrayobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\bytesobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\bytes_methods.h" />
+    <ClInclude Include="Python-2.7.17\Include\cellobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\ceval.h" />
+    <ClInclude Include="Python-2.7.17\Include\classobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\cobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\code.h" />
+    <ClInclude Include="Python-2.7.17\Include\codecs.h" />
+    <ClInclude Include="Python-2.7.17\Include\compile.h" />
+    <ClInclude Include="Python-2.7.17\Include\complexobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\cStringIO.h" />
+    <ClInclude Include="Python-2.7.17\Include\datetime.h" />
+    <ClInclude Include="Python-2.7.17\Include\descrobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\dictobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\dtoa.h" />
+    <ClInclude Include="Python-2.7.17\Include\enumobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\errcode.h" />
+    <ClInclude Include="Python-2.7.17\Include\eval.h" />
+    <ClInclude Include="Python-2.7.17\Include\fileobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\floatobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\frameobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\funcobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\genobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\graminit.h" />
+    <ClInclude Include="Python-2.7.17\Include\grammar.h" />
+    <ClInclude Include="Python-2.7.17\Include\import.h" />
+    <ClInclude Include="Python-2.7.17\Include\intobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\intrcheck.h" />
+    <ClInclude Include="Python-2.7.17\Include\iterobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\listobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\longintrepr.h" />
+    <ClInclude Include="Python-2.7.17\Include\longobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\marshal.h" />
+    <ClInclude Include="Python-2.7.17\Include\memoryobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\metagrammar.h" />
+    <ClInclude Include="Python-2.7.17\Include\methodobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\modsupport.h" />
+    <ClInclude Include="Python-2.7.17\Include\moduleobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\node.h" />
+    <ClInclude Include="Python-2.7.17\Include\object.h" />
+    <ClInclude Include="Python-2.7.17\Include\objimpl.h" />
+    <ClInclude Include="Python-2.7.17\Include\opcode.h" />
+    <ClInclude Include="Python-2.7.17\Include\osdefs.h" />
+    <ClInclude Include="Python-2.7.17\Include\parsetok.h" />
+    <ClInclude Include="Python-2.7.17\Include\patchlevel.h" />
+    <ClInclude Include="Python-2.7.17\Include\pgen.h" />
+    <ClInclude Include="Python-2.7.17\Include\pgenheaders.h" />
+    <ClInclude Include="Python-2.7.17\Include\pyarena.h" />
+    <ClInclude Include="Python-2.7.17\Include\pycapsule.h" />
+    <ClInclude Include="Python-2.7.17\Include\pyctype.h" />
+    <ClInclude Include="Python-2.7.17\Include\pydebug.h" />
+    <ClInclude Include="Python-2.7.17\Include\pyerrors.h" />
+    <ClInclude Include="Python-2.7.17\Include\pyexpat.h" />
+    <ClInclude Include="Python-2.7.17\Include\pyfpe.h" />
+    <ClInclude Include="Python-2.7.17\Include\pygetopt.h" />
+    <ClInclude Include="Python-2.7.17\Include\pymacconfig.h" />
+    <ClInclude Include="Python-2.7.17\Include\pymactoolbox.h" />
+    <ClInclude Include="Python-2.7.17\Include\pymath.h" />
+    <ClInclude Include="Python-2.7.17\Include\pymem.h" />
+    <ClInclude Include="Python-2.7.17\Include\pyport.h" />
+    <ClInclude Include="Python-2.7.17\Include\pystate.h" />
+    <ClInclude Include="Python-2.7.17\Include\pystrcmp.h" />
+    <ClInclude Include="Python-2.7.17\Include\pystrtod.h" />
+    <ClInclude Include="Python-2.7.17\Include\Python-ast.h" />
+    <ClInclude Include="Python-2.7.17\Include\Python.h" />
+    <ClInclude Include="Python-2.7.17\Include\pythonrun.h" />
+    <ClInclude Include="Python-2.7.17\Include\pythread.h" />
+    <ClInclude Include="Python-2.7.17\Include\py_curses.h" />
+    <ClInclude Include="Python-2.7.17\Include\rangeobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\setobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\sliceobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\stringobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\structmember.h" />
+    <ClInclude Include="Python-2.7.17\Include\structseq.h" />
+    <ClInclude Include="Python-2.7.17\Include\symtable.h" />
+    <ClInclude Include="Python-2.7.17\Include\sysmodule.h" />
+    <ClInclude Include="Python-2.7.17\Include\timefuncs.h" />
+    <ClInclude Include="Python-2.7.17\Include\token.h" />
+    <ClInclude Include="Python-2.7.17\Include\traceback.h" />
+    <ClInclude Include="Python-2.7.17\Include\tupleobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\ucnhash.h" />
+    <ClInclude Include="Python-2.7.17\Include\unicodeobject.h" />
+    <ClInclude Include="Python-2.7.17\Include\warnings.h" />
+    <ClInclude Include="Python-2.7.17\Include\weakrefobject.h" />
+    <ClInclude Include="Python-2.7.17\Modules\cjkcodecs\alg_jisx0201.h" />
+    <ClInclude Include="Python-2.7.17\Modules\cjkcodecs\cjkcodecs.h" />
+    <ClInclude Include="Python-2.7.17\Modules\cjkcodecs\emu_jisx0213_2000.h" />
+    <ClInclude Include="Python-2.7.17\Modules\cjkcodecs\mappings_cn.h" />
+    <ClInclude Include="Python-2.7.17\Modules\cjkcodecs\mappings_hk.h" />
+    <ClInclude Include="Python-2.7.17\Modules\cjkcodecs\mappings_jisx0213_pair.h" />
+    <ClInclude Include="Python-2.7.17\Modules\cjkcodecs\mappings_jp.h" />
+    <ClInclude Include="Python-2.7.17\Modules\cjkcodecs\mappings_kr.h" />
+    <ClInclude Include="Python-2.7.17\Modules\cjkcodecs\mappings_tw.h" />
+    <ClInclude Include="Python-2.7.17\Modules\cjkcodecs\multibytecodec.h" />
+    <ClInclude Include="Python-2.7.17\Objects\unicodetype_db.h" />
+    <ClInclude Include="Python-2.7.17\Parser\parser.h" />
+    <ClInclude Include="Python-2.7.17\Parser\tokenizer.h" />
+    <ClInclude Include="Python-2.7.17\PC\errmap.h" />
+    <ClInclude Include="Python-2.7.17\PC\pyconfig.h" />
+    <ClInclude Include="Python-2.7.17\Python\importdl.h" />
+    <ClInclude Include="Python-2.7.17\Python\opcode_targets.h" />
+    <ClInclude Include="Python-2.7.17\Python\thread_atheos.h" />
+    <ClInclude Include="Python-2.7.17\Python\thread_beos.h" />
+    <ClInclude Include="Python-2.7.17\Python\thread_cthread.h" />
+    <ClInclude Include="Python-2.7.17\Python\thread_foobar.h" />
+    <ClInclude Include="Python-2.7.17\Python\thread_lwp.h" />
+    <ClInclude Include="Python-2.7.17\Python\thread_nt.h" />
+    <ClInclude Include="Python-2.7.17\Python\thread_os2.h" />
+    <ClInclude Include="Python-2.7.17\Python\thread_pth.h" />
+    <ClInclude Include="Python-2.7.17\Python\thread_pthread.h" />
+    <ClInclude Include="Python-2.7.17\Python\thread_sgi.h" />
+    <ClInclude Include="Python-2.7.17\Python\thread_solaris.h" />
+    <ClInclude Include="Python-2.7.17\Python\thread_wince.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="boost_1_34_1\libs\python\src\converter\arg_to_python_base.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\converter\builtin_converters.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\converter\from_python.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\converter\registry.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\converter\type_id.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\dict.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\errors_.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\exec.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\import_.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\list.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\long.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\module.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\numeric.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\object\class.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\object\enum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\object\function.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\object\inheritance.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\object\iterator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\object\life_support.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\object\pickle_support.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\object\stl_iterator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\object_operators.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\object_protocol.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\slice.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\str.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\tuple.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="boost_1_34_1\libs\python\src\wrapper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="hello.cpp" />
+    <ClCompile Include="Python-2.7.17\Modules\cjkcodecs\multibytecodec.c" />
+    <ClCompile Include="Python-2.7.17\Modules\cjkcodecs\_codecs_cn.c" />
+    <ClCompile Include="Python-2.7.17\Modules\cjkcodecs\_codecs_hk.c" />
+    <ClCompile Include="Python-2.7.17\Modules\cjkcodecs\_codecs_iso2022.c" />
+    <ClCompile Include="Python-2.7.17\Modules\cjkcodecs\_codecs_jp.c" />
+    <ClCompile Include="Python-2.7.17\Modules\cjkcodecs\_codecs_kr.c" />
+    <ClCompile Include="Python-2.7.17\Modules\cjkcodecs\_codecs_tw.c" />
+    <ClCompile Include="Python-2.7.17\Modules\gcmodule.c" />
+    <ClCompile Include="Python-2.7.17\Modules\getbuildinfo.c" />
+    <ClCompile Include="Python-2.7.17\Modules\main.c" />
+    <ClCompile Include="Python-2.7.17\Modules\_codecsmodule.c" />
+    <ClCompile Include="Python-2.7.17\Objects\abstract.c" />
+    <ClCompile Include="Python-2.7.17\Objects\boolobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\bufferobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\bytearrayobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\bytes_methods.c" />
+    <ClCompile Include="Python-2.7.17\Objects\capsule.c" />
+    <ClCompile Include="Python-2.7.17\Objects\cellobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\classobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\cobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\codeobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\complexobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\descrobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\dictobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\enumobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\exceptions.c" />
+    <ClCompile Include="Python-2.7.17\Objects\fileobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\floatobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\frameobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\funcobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\genobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\intobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\iterobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\listobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\longobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\memoryobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\methodobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\moduleobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\object.c" />
+    <ClCompile Include="Python-2.7.17\Objects\obmalloc.c" />
+    <ClCompile Include="Python-2.7.17\Objects\rangeobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\setobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\sliceobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\stringobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\structseq.c" />
+    <ClCompile Include="Python-2.7.17\Objects\tupleobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\typeobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\unicodectype.c" />
+    <ClCompile Include="Python-2.7.17\Objects\unicodeobject.c" />
+    <ClCompile Include="Python-2.7.17\Objects\weakrefobject.c" />
+    <ClCompile Include="Python-2.7.17\Parser\acceler.c" />
+    <ClCompile Include="Python-2.7.17\Parser\bitset.c" />
+    <ClCompile Include="Python-2.7.17\Parser\firstsets.c" />
+    <ClCompile Include="Python-2.7.17\Parser\grammar.c" />
+    <ClCompile Include="Python-2.7.17\Parser\grammar1.c" />
+    <ClCompile Include="Python-2.7.17\Parser\intrcheck.c" />
+    <ClCompile Include="Python-2.7.17\Parser\listnode.c" />
+    <ClCompile Include="Python-2.7.17\Parser\metagrammar.c" />
+    <ClCompile Include="Python-2.7.17\Parser\myreadline.c" />
+    <ClCompile Include="Python-2.7.17\Parser\node.c" />
+    <ClCompile Include="Python-2.7.17\Parser\parser.c" />
+    <ClCompile Include="Python-2.7.17\Parser\parsetok.c" />
+    <ClCompile Include="Python-2.7.17\Parser\pgen.c" />
+    <ClCompile Include="Python-2.7.17\Parser\printgrammar.c" />
+    <ClCompile Include="Python-2.7.17\Parser\tokenizer.c" />
+    <ClCompile Include="Python-2.7.17\PC\config.c" />
+    <ClCompile Include="Python-2.7.17\PC\dl_nt.c" />
+    <ClCompile Include="Python-2.7.17\PC\getpathp.c" />
+    <ClCompile Include="Python-2.7.17\PC\import_nt.c" />
+    <ClCompile Include="Python-2.7.17\Python\asdl.c" />
+    <ClCompile Include="Python-2.7.17\Python\ast.c" />
+    <ClCompile Include="Python-2.7.17\Python\atof.c" />
+    <ClCompile Include="Python-2.7.17\Python\bltinmodule.c" />
+    <ClCompile Include="Python-2.7.17\Python\ceval.c" />
+    <ClCompile Include="Python-2.7.17\Python\codecs.c" />
+    <ClCompile Include="Python-2.7.17\Python\compile.c" />
+    <ClCompile Include="Python-2.7.17\Python\dtoa.c" />
+    <ClCompile Include="Python-2.7.17\Python\dynload_win.c" />
+    <ClCompile Include="Python-2.7.17\Python\errors.c" />
+    <ClCompile Include="Python-2.7.17\Python\formatter_string.c" />
+    <ClCompile Include="Python-2.7.17\Python\formatter_unicode.c" />
+    <ClCompile Include="Python-2.7.17\Python\frozen.c" />
+    <ClCompile Include="Python-2.7.17\Python\future.c" />
+    <ClCompile Include="Python-2.7.17\Python\getargs.c" />
+    <ClCompile Include="Python-2.7.17\Python\getcompiler.c" />
+    <ClCompile Include="Python-2.7.17\Python\getcopyright.c" />
+    <ClCompile Include="Python-2.7.17\Python\getopt.c" />
+    <ClCompile Include="Python-2.7.17\Python\getplatform.c" />
+    <ClCompile Include="Python-2.7.17\Python\getversion.c" />
+    <ClCompile Include="Python-2.7.17\Python\graminit.c" />
+    <ClCompile Include="Python-2.7.17\Python\import.c" />
+    <ClCompile Include="Python-2.7.17\Python\importdl.c" />
+    <ClCompile Include="Python-2.7.17\Python\marshal.c" />
+    <ClCompile Include="Python-2.7.17\Python\modsupport.c" />
+    <ClCompile Include="Python-2.7.17\Python\mysnprintf.c" />
+    <ClCompile Include="Python-2.7.17\Python\mystrtoul.c" />
+    <ClCompile Include="Python-2.7.17\Python\peephole.c" />
+    <ClCompile Include="Python-2.7.17\Python\pyarena.c" />
+    <ClCompile Include="Python-2.7.17\Python\pyctype.c" />
+    <ClCompile Include="Python-2.7.17\Python\pyfpe.c" />
+    <ClCompile Include="Python-2.7.17\Python\pymath.c" />
+    <ClCompile Include="Python-2.7.17\Python\pystate.c" />
+    <ClCompile Include="Python-2.7.17\Python\pystrcmp.c" />
+    <ClCompile Include="Python-2.7.17\Python\pystrtod.c" />
+    <ClCompile Include="Python-2.7.17\Python\Python-ast.c" />
+    <ClCompile Include="Python-2.7.17\Python\pythonrun.c" />
+    <ClCompile Include="Python-2.7.17\Python\random.c" />
+    <ClCompile Include="Python-2.7.17\Python\sigcheck.c" />
+    <ClCompile Include="Python-2.7.17\Python\strdup.c" />
+    <ClCompile Include="Python-2.7.17\Python\strtod.c" />
+    <ClCompile Include="Python-2.7.17\Python\structmember.c" />
+    <ClCompile Include="Python-2.7.17\Python\symtable.c" />
+    <ClCompile Include="Python-2.7.17\Python\sysmodule.c" />
+    <ClCompile Include="Python-2.7.17\Python\thread.c" />
+    <ClCompile Include="Python-2.7.17\Python\traceback.c" />
+    <ClCompile Include="Python-2.7.17\Python\_warnings.c" />
+    <ClCompile Include="python.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Python-2.7.17\Objects\dictnotes.txt" />
+    <Text Include="Python-2.7.17\Objects\listsort.txt" />
+    <Text Include="Python-2.7.17\Objects\lnotab_notes.txt" />
+    <Text Include="readme_boost_python_bug.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Lib\abc.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\codecs.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\collections.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\copy_reg.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\dis.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\encodings\aliases.py" />
+    <None Include="Lib\encodings\ascii.py" />
+    <None Include="Lib\encodings\base64_codec.py" />
+    <None Include="Lib\encodings\big5.py" />
+    <None Include="Lib\encodings\big5hkscs.py" />
+    <None Include="Lib\encodings\bz2_codec.py" />
+    <None Include="Lib\encodings\charmap.py" />
+    <None Include="Lib\encodings\cp037.py" />
+    <None Include="Lib\encodings\cp1006.py" />
+    <None Include="Lib\encodings\cp1026.py" />
+    <None Include="Lib\encodings\cp1140.py" />
+    <None Include="Lib\encodings\cp1250.py" />
+    <None Include="Lib\encodings\cp1251.py" />
+    <None Include="Lib\encodings\cp1252.py" />
+    <None Include="Lib\encodings\cp1253.py" />
+    <None Include="Lib\encodings\cp1254.py" />
+    <None Include="Lib\encodings\cp1255.py" />
+    <None Include="Lib\encodings\cp1256.py" />
+    <None Include="Lib\encodings\cp1257.py" />
+    <None Include="Lib\encodings\cp1258.py" />
+    <None Include="Lib\encodings\cp424.py" />
+    <None Include="Lib\encodings\cp437.py" />
+    <None Include="Lib\encodings\cp500.py" />
+    <None Include="Lib\encodings\cp720.py" />
+    <None Include="Lib\encodings\cp737.py" />
+    <None Include="Lib\encodings\cp775.py" />
+    <None Include="Lib\encodings\cp850.py" />
+    <None Include="Lib\encodings\cp852.py" />
+    <None Include="Lib\encodings\cp855.py" />
+    <None Include="Lib\encodings\cp856.py" />
+    <None Include="Lib\encodings\cp857.py" />
+    <None Include="Lib\encodings\cp858.py" />
+    <None Include="Lib\encodings\cp860.py" />
+    <None Include="Lib\encodings\cp861.py" />
+    <None Include="Lib\encodings\cp862.py" />
+    <None Include="Lib\encodings\cp863.py" />
+    <None Include="Lib\encodings\cp864.py" />
+    <None Include="Lib\encodings\cp865.py" />
+    <None Include="Lib\encodings\cp866.py" />
+    <None Include="Lib\encodings\cp869.py" />
+    <None Include="Lib\encodings\cp874.py" />
+    <None Include="Lib\encodings\cp875.py" />
+    <None Include="Lib\encodings\cp932.py" />
+    <None Include="Lib\encodings\cp949.py" />
+    <None Include="Lib\encodings\cp950.py" />
+    <None Include="Lib\encodings\euc_jisx0213.py" />
+    <None Include="Lib\encodings\euc_jis_2004.py" />
+    <None Include="Lib\encodings\euc_jp.py" />
+    <None Include="Lib\encodings\euc_kr.py" />
+    <None Include="Lib\encodings\gb18030.py" />
+    <None Include="Lib\encodings\gb2312.py" />
+    <None Include="Lib\encodings\gbk.py" />
+    <None Include="Lib\encodings\hex_codec.py" />
+    <None Include="Lib\encodings\hp_roman8.py" />
+    <None Include="Lib\encodings\hz.py" />
+    <None Include="Lib\encodings\idna.py" />
+    <None Include="Lib\encodings\iso2022_jp.py" />
+    <None Include="Lib\encodings\iso2022_jp_1.py" />
+    <None Include="Lib\encodings\iso2022_jp_2.py" />
+    <None Include="Lib\encodings\iso2022_jp_2004.py" />
+    <None Include="Lib\encodings\iso2022_jp_3.py" />
+    <None Include="Lib\encodings\iso2022_jp_ext.py" />
+    <None Include="Lib\encodings\iso2022_kr.py" />
+    <None Include="Lib\encodings\iso8859_1.py" />
+    <None Include="Lib\encodings\iso8859_10.py" />
+    <None Include="Lib\encodings\iso8859_11.py" />
+    <None Include="Lib\encodings\iso8859_13.py" />
+    <None Include="Lib\encodings\iso8859_14.py" />
+    <None Include="Lib\encodings\iso8859_15.py" />
+    <None Include="Lib\encodings\iso8859_16.py" />
+    <None Include="Lib\encodings\iso8859_2.py" />
+    <None Include="Lib\encodings\iso8859_3.py" />
+    <None Include="Lib\encodings\iso8859_4.py" />
+    <None Include="Lib\encodings\iso8859_5.py" />
+    <None Include="Lib\encodings\iso8859_6.py" />
+    <None Include="Lib\encodings\iso8859_7.py" />
+    <None Include="Lib\encodings\iso8859_8.py" />
+    <None Include="Lib\encodings\iso8859_9.py" />
+    <None Include="Lib\encodings\johab.py" />
+    <None Include="Lib\encodings\koi8_r.py" />
+    <None Include="Lib\encodings\koi8_u.py" />
+    <None Include="Lib\encodings\latin_1.py" />
+    <None Include="Lib\encodings\mac_arabic.py" />
+    <None Include="Lib\encodings\mac_centeuro.py" />
+    <None Include="Lib\encodings\mac_croatian.py" />
+    <None Include="Lib\encodings\mac_cyrillic.py" />
+    <None Include="Lib\encodings\mac_farsi.py" />
+    <None Include="Lib\encodings\mac_greek.py" />
+    <None Include="Lib\encodings\mac_iceland.py" />
+    <None Include="Lib\encodings\mac_latin2.py" />
+    <None Include="Lib\encodings\mac_roman.py" />
+    <None Include="Lib\encodings\mac_romanian.py" />
+    <None Include="Lib\encodings\mac_turkish.py" />
+    <None Include="Lib\encodings\mbcs.py" />
+    <None Include="Lib\encodings\palmos.py" />
+    <None Include="Lib\encodings\ptcp154.py" />
+    <None Include="Lib\encodings\punycode.py" />
+    <None Include="Lib\encodings\quopri_codec.py" />
+    <None Include="Lib\encodings\raw_unicode_escape.py" />
+    <None Include="Lib\encodings\rot_13.py" />
+    <None Include="Lib\encodings\shift_jis.py" />
+    <None Include="Lib\encodings\shift_jisx0213.py" />
+    <None Include="Lib\encodings\shift_jis_2004.py" />
+    <None Include="Lib\encodings\string_escape.py" />
+    <None Include="Lib\encodings\tis_620.py" />
+    <None Include="Lib\encodings\undefined.py" />
+    <None Include="Lib\encodings\unicode_escape.py" />
+    <None Include="Lib\encodings\unicode_internal.py" />
+    <None Include="Lib\encodings\utf_16.py" />
+    <None Include="Lib\encodings\utf_16_be.py" />
+    <None Include="Lib\encodings\utf_16_le.py" />
+    <None Include="Lib\encodings\utf_32.py" />
+    <None Include="Lib\encodings\utf_32_be.py" />
+    <None Include="Lib\encodings\utf_32_le.py" />
+    <None Include="Lib\encodings\utf_7.py" />
+    <None Include="Lib\encodings\utf_8.py" />
+    <None Include="Lib\encodings\utf_8_sig.py" />
+    <None Include="Lib\encodings\uu_codec.py" />
+    <None Include="Lib\encodings\zlib_codec.py" />
+    <None Include="Lib\encodings\__init__.py" />
+    <None Include="Lib\functools.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\genericpath.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\hashlib.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\heapq.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\inspect.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\io.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\keyword.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\linecache.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\locale.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\ntpath.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\opcode.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\os.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\pkgutil.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\pydoc.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\random.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\re.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\repr.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\site.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\sre_compile.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\sre_constants.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\sre_parse.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\stat.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\string.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\struct.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\sysconfig.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\tempfile.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\token.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\tokenize.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\traceback.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\types.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\UserDict.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\warnings.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\_abcoll.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\_weakrefset.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Lib\__future__.py">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{35023440-A65A-47B9-AC99-705EB3FD4A86}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>hello</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>BOOST_PYTHON_SOURCE;MS_NO_COREDLL;WIN32;_DEBUG_;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./Python-2.7.17/Include;./Python-2.7.17/PC;./Python-2.7.17/Python;./boost_1_34_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
